@@ -5,11 +5,11 @@ function Navbar() {
   return (
     <nav class=" border-gray-200 bg-[#024F74] w-full poppins">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-6">
-        <Link href="/">Beauty and Trust</Link>
+        <Link href="/" class="text-white font-semibold text-xl">Beauty and Trust</Link>
         <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <button
             type="button"
-            class="text-white bg-[#25D366]  font-medium text-sm px-6 py-2 text-center flex items-center justify-center gap-1"
+            class="text-white bg-[#25D366]  font-medium text-sm px-6 py-3 text-center flex items-center justify-center gap-1"
           >
             <FaWhatsapp color="#fff" fontSize={20} /> Whatsapp
           </button>
