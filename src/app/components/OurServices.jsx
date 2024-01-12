@@ -9,7 +9,7 @@ import { IoWallet } from "react-icons/io5";
 export default function OurServices() {
   return (
     <div class="px-20 h-screen text-center">
-      <h1 class="text-4xl text-bold my-16">Our Services</h1>
+      <h1 class="text-4xl text-bold mt-12 mb-20">Our Services</h1>
       <div class="flex justify-around items-center flex-wrap gap-4">
         <OurServicesCard
           icon={<GiSettingsKnobs />}

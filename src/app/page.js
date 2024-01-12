@@ -2,9 +2,10 @@
 import Aboutus from "./components/Aboutus";
 import DisplayCards from "./components/DisplayCards";
 import Hero from "./components/Hero";
+import Hotels from "./components/Hotels";
 import Navbar from "./components/Navbar";
 import OurServices from "./components/OurServices";
-import OurServicesCard from "./components/OurServicesCard";
+import Tours from "./components/Tours";
 
 export default function Home() {
   return (
@@ -14,6 +15,8 @@ export default function Home() {
       <DisplayCards />
       <Aboutus />
       <OurServices />
+      <Tours />
+      <Hotels />
     </main>
   );
 }
