@@ -11,7 +11,7 @@ export default function Tours() {
       <h1 class="text-4xl text-bold mb-20">Hot tours</h1>
       <div class="flex justify-center items-center flex-col gap-14">
       {tour.map((item) => (
-        <div class="w-3/4 flex justify-items-start items-start gap-14 text-left border-solid border-2 border-[#F4F4F4] relative">
+        <div class="w-3/4 flex justify-items-start items-start gap-14 text-left border-solid border-2 border-[#F4F4F4] relative cursor-pointer">
           <Image
             src={item?.image}
             sizes="100vw"
@@ -33,7 +33,7 @@ export default function Tours() {
         </div>
       ))}
       </div>
-      <button class="text-[#01B3A7] mt-10 text-xl">Load more...</button>
+      <button class="text-[#01B3A7] mt-16 text-xl">Load more...</button>
     </div>
   );
 }

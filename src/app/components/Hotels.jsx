@@ -3,7 +3,7 @@ import hotels from "./Data/hotelsData";
 import Image from "next/image";
 
 export default function Hotels() {
-  const data = hotels.slice(0, 4);
+  const data = hotels.slice(0, 3);
 
   return (
     <div class="h-screen text-center mt-20">
@@ -12,7 +12,7 @@ export default function Hotels() {
         {data.map((hotel) => (
           <article
             key={hotel?.id}
-            class=" pb-4 w-80 border-solid border-2 border-black flex flex-col gap-5 "
+            class=" pb-4 w-80 flex flex-col gap-5 border-solid border-2 border-[#F4F4F4] shadow-lg cursor-pointer ease-linear duration-200 hover:shadow-2xl "
           >
             <Image
               src={hotel.Image}
@@ -31,7 +31,7 @@ export default function Hotels() {
           </article>
         ))}
       </div>
-      <button class="text-[#01B3A7] mt-10 text-xl">Load more...</button>
+      <button class="text-[#01B3A7] mt-16 text-xl">Load more...</button>
     </div>
   );
 }
