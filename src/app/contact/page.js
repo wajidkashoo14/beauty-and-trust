@@ -37,19 +37,19 @@ export default function page() {
             <h2 class="mb-6 font-medium text-xl">GET IN TOUCH</h2>
             <form class="flex flex-col gap-4">
               <input
-                placeholder="Your Name"
+                placeholder="Your Name" required
                 class="px-2 py-4 border-solid border-2 border-[#F4F4F4] focus:outline-none"
               />
               <input
-                placeholder="Email"
+                placeholder="Email" required
                 class="px-2 py-4 border-solid border-2 border-[#F4F4F4] focus:outline-none"
               />
               <input
-                placeholder="Phone"
+                placeholder="Phone" required
                 class="px-2 py-4 border-solid border-2 border-[#F4F4F4] focus:outline-none"
               />
               <textarea
-                placeholder="Message"
+                placeholder="Message" required
                 class="px-2 py-4 border-solid border-2 h-44 border-[#F4F4F4] focus:outline-none"
               ></textarea>
             </form>
