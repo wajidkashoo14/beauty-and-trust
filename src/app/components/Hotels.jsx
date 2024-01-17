@@ -1,37 +1,34 @@
 import React from "react";
 import hotels from "./Data/hotelsData";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function Hotels() {
-  const data = hotels.slice(0, 3);
+  const router = useRouter();
+  const data = hotels.slice(0, 4);
 
   return (
     <div class="h-screen text-center mt-20">
       <h1 class="text-4xl text-bold mb-20">Discover Your Perfect Stay</h1>
-      <div class="flex justify-evenly items-center">
+      <div class="flex items-center justify-center gap-3">
         {data.map((hotel) => (
           <article
             key={hotel?.id}
-            class=" pb-4 w-80 flex flex-col gap-5 border-solid border-2 border-[#F4F4F4] shadow-lg cursor-pointer ease-linear duration-200 hover:shadow-2xl "
+            class=" overflow-hidden w-80 flex flex-col gap-6 cursor-pointer "
           >
             <Image
-              src={hotel.Image}
+              src={hotel.image}
               width={320}
               height={300}
               alt="hotel-image"
               loading="lazy"
+              class="shadow-lg rounded-lg ease-linear duration-200 hover:shadow-2xl"
+              onClick={() => router.push(`/hotels/${hotel?.location}`)}
             />
-            <div class="flex flex-col gap-5 px-4 text-left">
-              <h3 class="font-semibold text-xl">{hotel?.hotelName}</h3>
-              <p>{hotel?.description}</p>
-              <button class="bg-[#01B3A7] px-6 py-2 text-white text-md hover:bg-[#018078] ease-linear duration-200 w-32">
-                Read More
-              </button>
-            </div>
+            <span class="font-medium">{hotel?.location.toUpperCase()}</span>
           </article>
         ))}
       </div>
-      <button class="text-[#01B3A7] mt-16 text-xl">Load more...</button>
     </div>
   );
 }

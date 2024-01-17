@@ -1,42 +1,64 @@
 const data = [
   {
     id: 1,
-    Image: "/dallake.jpg",
+    image: "/srinagar.jpg",
+    location:"srinagar",
     hotelName: "Kaaz",
+    address:"dalgate Srinagar",
+    stars:"4",
     description:
       "i like autumn in the season and cotton in the season and this all that i need for now",
   },
   {
     id: 2,
-    Image: "/dallake.jpg",
+    image: "/srinagar.jpg",
+    location:"srinagar",
     hotelName: "Kaaz",
     description:
       "i like autumn in the season and cotton in the season and this all that i need for now",
   },
   {
     id: 3,
-    Image: "/dallake.jpg",
+    image: "/srinagar.jpg",
+    location:"srinagar",
+    hotelName: "Kaaz",
+    description:
+      "i like autumn in the season and cotton in the season and this all that i need for now",
+  },
+  {
+    id: 2,
+    image: "/gulmarg.jpg",
+    hotelName: "Kaaz",
+    location:"gulmarg",
+    description:
+      "i like autumn in the season and cotton in the season and this all that i need for now",
+  },
+  {
+    id: 3,
+    image: "/pahalgam.jpg",
+    location:"pahalgam",
     hotelName: "Kaaz",
     description:
       "i like autumn in the season and cotton in the season and this all that i need for now",
   },
   {
     id: 4,
-    Image: "/dallake.jpg",
+    image: "/sonmarg.jpg",
+    location:"sonmarg",
     hotelName: "Kaaz",
     description:
       "i like autumn in the season and cotton in the season and this all that i need for now",
   },
   {
     id: 5,
-    Image: "/dallake.jpg",
+    image: "/dallake.jpg",
     hotelName: "Kaaz",
     description:
       "i like autumn in the season and cotton in the season and this all that i need for now",
   },
   {
     id: 6,
-    Image: "/dallake.jpg",
+    image: "/dallake.jpg",
     hotelName: "Kaaz",
     description:
       "i like autumn in the season and cotton in the season and this all that i need for now",

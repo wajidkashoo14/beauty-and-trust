@@ -13,3 +13,11 @@
     left: 30%;
     font-size: 20px;
 }
+
+.star {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    color: #F2D80C;
+}
