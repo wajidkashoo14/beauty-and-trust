@@ -1,47 +1,28 @@
 import React from "react";
+import { IoMdMail } from "react-icons/io";
+import { FaMobile } from "react-icons/fa6";
+
 
 export default function Footer() {
   return (
-    <footer class="bg-white dark:bg-gray-900">
+    <footer class="bg-white dark:bg-gray-900 min-h-max">
       <div class="mx-auto w-full max-w-screen-xl">
         <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
           <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-              Company
-            </h2>
-            <ul class="text-gray-500 dark:text-gray-400 font-medium">
-              <li class="mb-4">
-                <a href="#" class=" hover:underline">
-                  About
-                </a>
-              </li>
-              <li class="mb-4">
-                <a href="#" class="hover:underline">
-                  Careers
-                </a>
-              </li>
-              <li class="mb-4">
-                <a href="#" class="hover:underline">
-                  Brand Center
-                </a>
-              </li>
-              <li class="mb-4">
-                <a href="#" class="hover:underline">
-                  Blog
-                </a>
-              </li>
-            </ul>
+            <h2 class="text-lg font-medium mb-5 text-white">Who we are?</h2>
+            <p class="text-sm text-left text-gray-500">
+              Beauty and Trust Tour and Travels in Kashmir offers an enchanting
+              exploration, embracing the serene landscapes of Sonmarg and
+              Pahalgam. Traverse through the captivating meadows of Pahalgam,
+              where the Lidder River gracefully flows, and experience the
+              ethereal beauty of Betaab Valley.
+            </p>
           </div>
           <div>
             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
               Help center
             </h2>
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
-              <li class="mb-4">
-                <a href="#" class="hover:underline">
-                  Discord Server
-                </a>
-              </li>
               <li class="mb-4">
                 <a href="#" class="hover:underline">
                   Twitter
@@ -61,55 +42,51 @@ export default function Footer() {
           </div>
           <div>
             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-              Legal
+              Quick Links
             </h2>
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
               <li class="mb-4">
                 <a href="#" class="hover:underline">
-                  Privacy Policy
+                  Tours
                 </a>
               </li>
               <li class="mb-4">
                 <a href="#" class="hover:underline">
-                  Licensing
+                  Hotels
                 </a>
               </li>
               <li class="mb-4">
                 <a href="#" class="hover:underline">
-                  Terms &amp; Conditions
+                  About us
                 </a>
               </li>
             </ul>
           </div>
           <div>
             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-              Download
+              Contact
             </h2>
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
               <li class="mb-4">
-                <a href="#" class="hover:underline">
-                  iOS
+                <a href="#" class="hover:underline flex justify-start items-center gap-2">
+                <IoMdMail /> beautyandtrusttours@gmail.com
                 </a>
               </li>
               <li class="mb-4">
-                <a href="#" class="hover:underline">
-                  Android
+                <a href="#" class="hover:underline flex justify-start items-center gap-2">
+               <FaMobile /> 7889904477
+
                 </a>
               </li>
               <li class="mb-4">
-                <a href="#" class="hover:underline">
-                  Windows
-                </a>
-              </li>
-              <li class="mb-4">
-                <a href="#" class="hover:underline">
-                  MacOS
+                <a href="#" class="hover:underline flex justify-start items-center gap-2">
+                <FaMobile /> 7889904477
                 </a>
               </li>
             </ul>
           </div>
         </div>
-        <div class="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
+        {/* <div class="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
           <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">
             © 2023 <a href="https://flowbite.com/">Flowbite™</a>. All Rights
             Reserved.
@@ -207,7 +184,7 @@ export default function Footer() {
               <span class="sr-only">Dribbble account</span>
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
