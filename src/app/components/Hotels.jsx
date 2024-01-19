@@ -3,12 +3,13 @@ import hotels from "./Data/hotelsData";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 
+
 export default function Hotels() {
   const router = useRouter();
   const data = hotels.slice(0, 4);
 
   return (
-    <div class="h-screen text-center mt-20">
+    <div class="h-screen text-center mt-32">
       <h1 class="text-4xl text-bold mb-20">Discover Your Perfect Stay</h1>
       <div class="flex items-center justify-center gap-3">
         {data.map((hotel) => (
