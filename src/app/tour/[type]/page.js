@@ -52,7 +52,7 @@ export default function Page() {
                     >
                       <div className={styles.title}>
                         <h3>{item?.day}</h3>
-                        <span>{showData ? <MdKeyboardArrowDown /> : <MdOutlineKeyboardArrowUp />}</span>
+                        <span>{showData ? <MdOutlineKeyboardArrowUp /> :<MdKeyboardArrowDown /> }</span>
                       </div>
                       {selected === item?.id ? (
                         <div className={styles.content}>{item?.detail}</div>

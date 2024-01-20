@@ -2,41 +2,26 @@ const data = [
   {
     id: 1,
     image: "/srinagar.jpg",
-    location:"srinagar",
+    location: "srinagar",
     hotelName: "Kaaz",
-    address:"dalgate Srinagar",
-    stars:"4",
+    address: "dalgate Srinagar",
+    stars: "4",
     description:
       "i like autumn in the season and cotton in the season and this all that i need for now",
   },
+
   {
     id: 2,
-    image: "/srinagar.jpg",
-    location:"srinagar",
+    image: "/snow.jpg",
     hotelName: "Kaaz",
-    description:
-      "i like autumn in the season and cotton in the season and this all that i need for now",
-  },
-  {
-    id: 3,
-    image: "/srinagar.jpg",
-    location:"srinagar",
-    hotelName: "Kaaz",
-    description:
-      "i like autumn in the season and cotton in the season and this all that i need for now",
-  },
-  {
-    id: 2,
-    image: "/gulmarg.jpg",
-    hotelName: "Kaaz",
-    location:"gulmarg",
+    location: "gulmarg",
     description:
       "i like autumn in the season and cotton in the season and this all that i need for now",
   },
   {
     id: 3,
     image: "/pahalgam.jpg",
-    location:"pahalgam",
+    location: "pahalgam",
     hotelName: "Kaaz",
     description:
       "i like autumn in the season and cotton in the season and this all that i need for now",
@@ -44,7 +29,7 @@ const data = [
   {
     id: 4,
     image: "/sonmarg.jpg",
-    location:"sonmarg",
+    location: "sonmarg",
     hotelName: "Kaaz",
     description:
       "i like autumn in the season and cotton in the season and this all that i need for now",
@@ -65,4 +50,4 @@ const data = [
   },
 ];
 
-export default data
+export default data;

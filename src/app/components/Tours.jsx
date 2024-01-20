@@ -8,7 +8,7 @@ export default function Tours() {
   const tour = ToursData.slice(0, 4);
  
   return (
-    <div class="text-center">
+    <div class="text-center" id="tours">
       <h1 class="text-4xl text-bold mb-20">Hot Tours</h1>
       <div class="flex justify-evenly gap-10">
       {tour.map((item) => (

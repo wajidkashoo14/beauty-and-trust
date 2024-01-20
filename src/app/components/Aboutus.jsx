@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import AboutImage from "../../../public/about.jpg";
+import { useRouter } from "next/navigation";
 
 export default function Aboutus() {
+  const router = useRouter()
   return (
     <div class="flex justify-around items-center h-screen">
       <Image
@@ -28,7 +30,7 @@ export default function Aboutus() {
           hospitality.
         </p>
         <div class="flex justify-start gap-10">
-          <button class="bg-[#01B3A7] px-10 py-4 text-white text-md hover:bg-[#018078] ease-linear duration-200">Get in Touch</button>
+          <button class="bg-[#01B3A7] px-10 py-4 text-white text-md hover:bg-[#018078] ease-linear duration-200" onClick={() => router.push('/contact')}>Get in Touch</button>
           <button class="px-10 py-4 bg-transparent text-black border-solid border-2 border-black text-md ease-linear duration-200 hover:shadow-2xl scale-115">Read More</button>
         </div>
       </div>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa";
 
@@ -5,7 +6,9 @@ function Navbar() {
   return (
     <nav class=" border-gray-200 bg-[#024F74] w-full poppins">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-6">
-        <Link href="/" class="text-white font-semibold text-xl">Beauty and Trust</Link>
+        <Link href="/" class="text-white font-semibold text-xl flex justify-center items-center gap-2">
+          <Image src='/logo.jpg' alt="logo" loading="lazy" width={60} height={60} class="rounded-full" />
+          Beauty and Trust</Link>
         <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <button
             type="button"
@@ -54,7 +57,7 @@ function Navbar() {
             </li>
             <li>
               <Link
-                href="/"
+                href="#tours"
                 class="block py-2 px-3 md:p-0 text-white hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 Tour
@@ -62,7 +65,7 @@ function Navbar() {
             </li>
             <li>
               <Link
-                href="/hotels"
+                href="#hotels"
                 class="block py-2 px-3 md:p-0 text-white md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 Hotels

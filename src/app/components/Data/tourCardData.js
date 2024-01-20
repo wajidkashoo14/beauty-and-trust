@@ -87,7 +87,7 @@ const data = [
   {
     id: 3,
     title: "Kashmir 3 Nights and 4 Days",
-    image: "/dallake.jpg",
+    image: "/df.jpg",
     price: 5000,
     description:
       "Experience Kashmir's allure in a 3N/4D tour. Visit Dal Lake, Gulmarg, and Pahalgam. Enjoy breathtaking landscapes and cultural richness.",
