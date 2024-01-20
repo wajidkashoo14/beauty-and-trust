@@ -3,50 +3,278 @@ const data = [
     id: 1,
     image: "/srinagar.jpg",
     location: "srinagar",
-    hotelName: "Kaaz",
     address: "dalgate Srinagar",
-    stars: "4",
-    description:
-      "i like autumn in the season and cotton in the season and this all that i need for now",
+
+    hotels: [
+      {
+        id: 1,
+        hotelName: "CITY GRACE",
+        location: "",
+        stars: "3",
+      },
+      {
+        id: 2,
+        hotelName: "NISSAR",
+        location: "",
+        stars: "3",
+      },
+      {
+        id: 3,
+        hotelName: "NIGEEN RESIDENCY RESORT",
+        location: "",
+        stars: "3",
+      },
+      {
+        id: 4,
+        hotelName: "HOLIDAY VILLA",
+        location: "",
+        stars: "3",
+      },
+      {
+        id: 5,
+        hotelName: "ROYAL ARABIA",
+        location: "",
+        stars: "3",
+      },
+      {
+        id: 6,
+        hotelName: "GERMAN RESIDENCY",
+        location: "",
+        stars: "3",
+      },
+      {
+        id: 7,
+        hotelName: "BLOSSOM",
+        location: "",
+        stars: "3",
+      },
+      {
+        id: 8,
+        hotelName: "SIDEEQ PALACE",
+        location: "",
+        stars: "3",
+      },
+      {
+        id: 9,
+        hotelName: "GRAND KAISAR",
+        location: "",
+        stars: "3",
+      },
+      {
+        id: 10,
+        hotelName: "THE VICTORY",
+        location: "",
+        stars: "3",
+      },
+      {
+        id: 11,
+        hotelName: "ROYAL BATOO",
+        location: "",
+        stars: "3",
+      },
+      {
+        id: 12,
+        hotelName: "ROYAL MILAD",
+        location: "",
+        stars: "3",
+      },
+      {
+        id: 13,
+        hotelName: "ASIAN PARK",
+        location: "",
+        stars: "3",
+      },
+      {
+        id: 14,
+        hotelName: "ROSE PETAL",
+        location: "",
+        stars: "3",
+      },
+      {
+        id: 15,
+        hotelName: "GRAND MAMTA",
+        location: "",
+        stars: "3",
+      },
+      {
+        id: 16,
+        hotelName: "MANNAT RESORT",
+        location: "",
+        stars: "3",
+      },
+    ],
   },
 
   {
     id: 2,
     image: "/snow.jpg",
-    hotelName: "Kaaz",
     location: "gulmarg",
-    description:
-      "i like autumn in the season and cotton in the season and this all that i need for now",
+    hotels: [
+      {
+        id: 1,
+        hotelName: "Hotel Signature",
+        location: "",
+        star: "3",
+      },
+      {
+        id: 2,
+        hotelName: "Gulmarg House",
+        location: "",
+        star: "3",
+      },
+      {
+        id: 3,
+        hotelName: "Pine palace Platinum",
+        location: "",
+        star: "4",
+      },
+      {
+        id: 4,
+        hotelName: "Royal Castle",
+        location: "",
+        star: "4",
+      },
+      {
+        id: 5,
+        hotelName: "Royal Park",
+        location: "",
+        star: "4",
+      },
+      {
+        id: 6,
+        hotelName: "Grand Mumtaz",
+        location: "",
+        star: "4",
+      },
+      {
+        id: 7,
+        hotelName: "Khyber",
+        location: "",
+        star: "5",
+      },
+    ],
   },
   {
     id: 3,
     image: "/pahalgam.jpg",
     location: "pahalgam",
-    hotelName: "Kaaz",
-    description:
-      "i like autumn in the season and cotton in the season and this all that i need for now",
+    hotels: [
+      {
+        id: 1,
+        hotelName: "Home 2",
+        location: "",
+        star: "2",
+      },
+      {
+        id: 2,
+        hotelName: "Crown View",
+        location: "",
+        star: "2",
+      },
+      {
+        id: 3,
+        hotelName: "Iceland",
+        location: "",
+        star: "2",
+      },
+      {
+        id: 4,
+        hotelName: "Sun N Shades",
+        location: "",
+        star: "3",
+      },
+      {
+        id: 5,
+        hotelName: "Regency",
+        location: "",
+        star: "3",
+      },
+      {
+        id: 6,
+        hotelName: "Liddar resort",
+        location: "",
+        star: "3",
+      },
+      {
+        id: 7,
+        hotelName: "Green Heights",
+        location: "",
+        star: "3",
+      },
+      {
+        id: 8,
+        hotelName: "Pahalgam peaks",
+        location: "",
+        star: "3",
+      },
+      {
+        id: 9,
+        hotelName: "Eden Resort",
+        location: "",
+        star: "4",
+      },
+      {
+        id: 10,
+        hotelName: "Chinar Resorts & Spa",
+        location: "",
+        star: "4",
+      },
+      {
+        id: 11,
+        hotelName: "Sparrow",
+        location: "",
+        star: "4",
+      },
+      {
+        id: 12,
+        hotelName: "Mountains view",
+        location: "",
+        star: "4",
+      },
+      {
+        id: 13,
+        hotelName: "Pine & Peaks",
+        location: "",
+        star: "5",
+      },
+    ],
   },
   {
     id: 4,
     image: "/sonmarg.jpg",
     location: "sonmarg",
-    hotelName: "Kaaz",
-    description:
-      "i like autumn in the season and cotton in the season and this all that i need for now",
-  },
-  {
-    id: 5,
-    image: "/dallake.jpg",
-    hotelName: "Kaaz",
-    description:
-      "i like autumn in the season and cotton in the season and this all that i need for now",
-  },
-  {
-    id: 6,
-    image: "/dallake.jpg",
-    hotelName: "Kaaz",
-    description:
-      "i like autumn in the season and cotton in the season and this all that i need for now",
+    hotels: [
+      {
+        id: 1,
+        hotelName: "Divine Inn",
+        location: "",
+        star: 3,
+      },
+      {
+        id: 2,
+        hotelName: "Badar Resort",
+        location: "",
+        star: 3,
+      },
+      {
+        id: 3,
+        hotelName: "Tranquel",
+        location: "",
+        star: 3,
+      },
+      {
+        id: 4,
+        hotelName: "Snow Land Sonamarg",
+        location: "",
+        star: 4,
+      },
+      {
+        id: 5,
+        hotelName: "Raddison Sonamarg",
+        location: "",
+        star: 5,
+      },
+    ],
   },
 ];
 
