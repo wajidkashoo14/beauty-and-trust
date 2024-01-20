@@ -8,11 +8,13 @@
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
+    margin-top: 2.3rem;
     justify-content: center;
     align-items: flex-start;
     padding-left: 8rem;
     flex-direction: column;
     gap: .5rem;
+    z-index: -1;
 }
 
 .container button {

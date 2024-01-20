@@ -31,7 +31,7 @@ export default function Aboutus() {
         </p>
         <div class="flex justify-start gap-10">
           <button class="bg-[#01B3A7] px-10 py-4 text-white text-md hover:bg-[#018078] ease-linear duration-200" onClick={() => router.push('/contact')}>Get in Touch</button>
-          <button class="px-10 py-4 bg-transparent text-black border-solid border-2 border-black text-md ease-linear duration-200 hover:shadow-2xl scale-115">Read More</button>
+          <button class="px-10 py-4 bg-transparent text-black border-solid border-2 border-black text-md ease-linear duration-200 hover:shadow-2xl scale-115"onClick={() => router.push('/aboutus')}>Read More</button>
         </div>
       </div>
     </div>

@@ -9,7 +9,7 @@ export default function Hotels() {
   const data = hotels.slice(0, 4);
 
   return (
-    <div id="hotels" class="h-screen text-center mt-32">
+    <div id="hotels" class="h-auto text-center my-32">
       <h1 class="text-4xl text-bold mb-20">Discover Your Perfect Stay</h1>
       <div class="flex items-center justify-center gap-3">
         {data.map((hotel) => (

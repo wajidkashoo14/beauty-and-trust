@@ -1,6 +1,7 @@
 import React from "react";
 import { IoMdMail } from "react-icons/io";
 import { FaMobile } from "react-icons/fa6";
+import Link from "next/link";
 
 
 export default function Footer() {
@@ -24,19 +25,19 @@ export default function Footer() {
             </h2>
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
               <li class="mb-4">
-                <a href="#" class="hover:underline">
+                <Link href="#" class="hover:underline">
                   Twitter
-                </a>
+                </Link>
               </li>
               <li class="mb-4">
-                <a href="#" class="hover:underline">
+                <Link href="#" class="hover:underline">
                   Facebook
-                </a>
+                </Link>
               </li>
               <li class="mb-4">
-                <a href="#" class="hover:underline">
-                  Contact Us
-                </a>
+                <Link href="#" class="hover:underline">
+                  Instagram
+                </Link>
               </li>
             </ul>
           </div>
@@ -46,19 +47,19 @@ export default function Footer() {
             </h2>
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
               <li class="mb-4">
-                <a href="#" class="hover:underline">
+                <Link href="#tours" class="hover:underline">
                   Tours
-                </a>
+                </Link>
               </li>
               <li class="mb-4">
-                <a href="#" class="hover:underline">
+                <Link href="#hotels" class="hover:underline">
                   Hotels
-                </a>
+                </Link>
               </li>
               <li class="mb-4">
-                <a href="#" class="hover:underline">
+                <Link href="/aboutus" class="hover:underline">
                   About us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -68,15 +69,15 @@ export default function Footer() {
             </h2>
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
               <li class="mb-4">
-                <a href="#" class="hover:underline flex justify-start items-center gap-2">
+                <Link href="#" class="hover:underline flex justify-start items-center gap-2">
                 <IoMdMail /> beautyandtrusttours@gmail.com
-                </a>
+                </Link>
               </li>
               <li class="mb-4">
-                <a href="#" class="hover:underline flex justify-start items-center gap-2">
+                <Link href="#" class="hover:underline flex justify-start items-center gap-2">
                <FaMobile /> 7889904477
 
-                </a>
+                </Link>
               </li>
               <li class="mb-4">
                 <a href="#" class="hover:underline flex justify-start items-center gap-2">

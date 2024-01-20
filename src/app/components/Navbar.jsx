@@ -4,18 +4,30 @@ import { FaWhatsapp } from "react-icons/fa";
 
 function Navbar() {
   return (
-    <nav class=" border-gray-200 bg-[#024F74] w-full poppins">
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-6">
-        <Link href="/" class="text-white font-semibold text-xl flex justify-center items-center gap-2">
-          <Image src='/logo.jpg' alt="logo" loading="lazy" width={60} height={60} class="rounded-full" />
-          Beauty and Trust</Link>
+    <nav class=" border-gray-200 bg-[#024F74] w-full poppins fixed top-0">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-5">
+        <Link
+          href="/"
+          class="text-white font-semibold text-xl flex justify-center items-center gap-2"
+        >
+          <Image
+            src="/logo.jpg"
+            alt="logo"
+            loading="lazy"
+            width={60}
+            height={60}
+            class="rounded-full"
+          />
+          Beauty and Trust
+        </Link>
         <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <button
+          <Link
+            href="https://wa.me/917051695835"
             type="button"
             class="text-white bg-[#25D366]  font-medium text-sm px-6 py-3 text-center flex items-center justify-center gap-1"
           >
             <FaWhatsapp color="#fff" fontSize={20} /> Whatsapp
-          </button>
+          </Link>
           <button
             data-collapse-toggle="navbar-cta"
             type="button"
