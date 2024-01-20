@@ -4,11 +4,11 @@ import { FaWhatsapp } from "react-icons/fa";
 
 function Navbar() {
   return (
-    <nav class=" border-gray-200 bg-[#024F74] w-full poppins fixed top-0">
+    <nav class=" border-gray-200 bg-[#024F74] w-full poppins fixed top-0 z-1000">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-5">
         <Link
           href="/"
-          class="text-white font-semibold text-xl flex justify-center items-center gap-2"
+          class="text-white font-semibold text-xl flex justify-center items-center gap-2 -z-1"
         >
           <Image
             src="/logo.jpg"
@@ -81,6 +81,14 @@ function Navbar() {
                 class="block py-2 px-3 md:p-0 text-white md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 Hotels
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/transport"
+                class="block py-2 px-3 md:p-0 text-white md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                Transport
               </Link>
             </li>
             <li>

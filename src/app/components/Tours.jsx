@@ -8,11 +8,11 @@ export default function Tours() {
   const tour = ToursData.slice(0, 4);
  
   return (
-    <div class="text-center" id="tours">
+    <div class="text-center z-10" id="tours">
       <h1 class="text-4xl text-bold mb-20">Hot Tours</h1>
       <div class="flex justify-evenly gap-10">
       {tour.map((item) => (
-        <div class="w-80 text-left border-solid border-2 border-[#F4F4F4] cursor-pointer shadow-xl transition-all ease-linear duration-200 hover:-translate-y-3"
+        <div class="w-80 text-left border-solid border-2 border-[#F4F4F4] cursor-pointer shadow-xl transition-all ease-linear duration-200 hover:-translate-y-3 z-1"
         onClick={() => router.push(`/tour/${item?.tourHeading}`)}
         >
           <Image
@@ -25,6 +25,7 @@ export default function Tours() {
             style={{
                 width: '320px',
                 height: '200px',
+                zIndex:"10",
               }}
           />
           <div class="p-4">

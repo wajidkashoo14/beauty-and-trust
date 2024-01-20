@@ -30,12 +30,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li class="mb-4">
-                <Link href="#" class="hover:underline">
+                <Link href="https://www.facebook.com/profile.php?id=61550517676262&mibextid=ZbWKwL" class="hover:underline">
                   Facebook
                 </Link>
               </li>
               <li class="mb-4">
-                <Link href="#" class="hover:underline">
+                <Link href="https://www.instagram.com/beautyandtrusttours?igsh=MThmM3BtbWQzMXAxbw==" class="hover:underline">
                   Instagram
                 </Link>
               </li>

@@ -14,7 +14,7 @@ function page() {
   
 
   return (
-    <div class="min-h-screen mb-24 w-full mt-22">
+    <div class="min-h-screen mb-24 w-full mt-22 z-10">
       <h1 class="text-3xl mt-32 font-semibold text-center">{`Hotels in ${
         stay.charAt(0).toUpperCase() + stay.slice(1)
       }`}</h1>
