@@ -26,7 +26,7 @@ function Navbar() {
             type="button"
             class="text-white bg-[#25D366]  font-medium text-sm px-6 py-3 text-center flex items-center justify-center gap-1"
           >
-            <FaWhatsapp color="#fff" fontSize={20} /> Whatsapp
+            <FaWhatsapp color="#fff" fontSize={20} /> WhatsApp
           </Link>
           <button
             data-collapse-toggle="navbar-cta"

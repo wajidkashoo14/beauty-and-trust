@@ -3,7 +3,7 @@ import TransportCard from "../components/TransportCard";
 
 export default function page() {
   return (
-    <div class="min-h-full mb-16">
+    <div class="min-h-full mb-16 z-10">
       <h1 class="text-3xl mt-32 text-center font-medium">Our Vehicles</h1>
       <div class="flex justify-evenly items-center flex-wrap mt-10">
         <TransportCard
@@ -28,7 +28,7 @@ export default function page() {
           image="/tempo.jpg"
           title="Tempo Traveller"
           numberOfPassengers ="10 Passengers Max"
-          description="Tailored for tourists, offering group adventures with spacious comfort. Versatile and reliable, it's the perfect choice for memorable and enjoyable journeys"
+          description="Tailored for tourists, providing group adventures with spacious comfort. Versatile and reliable, it's ideal for memorable journeys."
         />
       </div>
     </div>
