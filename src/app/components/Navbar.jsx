@@ -4,7 +4,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 function Navbar() {
   return (
-    <nav class=" border-gray-200 bg-[#024F74] w-full poppins fixed top-0 z-1000">
+    <nav class=" border-gray-200 bg-[#024F74] w-full poppins fixed top-0 z-50">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-5">
         <Link
           href="/"
