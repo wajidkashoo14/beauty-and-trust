@@ -20,7 +20,7 @@ export default function page() {
           style={{width:"100%", height:"100%"}}
           ></iframe>
           </div>
-          <div class="flex flex-col justify-start items-start gap-12 bg-[#01B3A7] text-white p-6 max-[600px]:mb-14 max-[600px]:gap-8">
+          <div class="flex flex-col justify-start items-start gap-12 bg-[#01B3A7] text-white p-6 m max-[600px]:gap-8">
             <h2 class="text-3xl font-medium">Contact Information</h2>
             <span class="flex justify-center items-center gap-2 text-lg">
               <IoLocationOutline size={25} />
