@@ -9,7 +9,7 @@ import Link from "next/link";
 export default function page() {
   return (
     <div class="mt-32">
-      <h1 className="-mt-20 text-5xl text-black text-center font-semibold">
+      <h1 className="-mt-20 text-5xl text-black text-center font-medium">
         Contact Us
       </h1>
       <div class="w-full h-screen flex justify-center items-center">
