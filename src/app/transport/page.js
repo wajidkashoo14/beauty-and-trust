@@ -3,9 +3,9 @@ import TransportCard from "../components/TransportCard";
 
 export default function page() {
   return (
-    <div class="min-h-full mb-16 z-10">
-      <h1 class="text-3xl mt-32 text-center font-medium">Our Vehicles</h1>
-      <div class="flex justify-evenly items-center flex-wrap mt-10">
+    <div class="min-h-full mb-16 z-10 max-[600px]:mt-22">
+      <h1 class="text-3xl mt-32 text-center font-medium max-[600px]:mt-56">Our Vehicles</h1>
+      <div class="flex justify-evenly items-center flex-wrap mt-10 max-[600px]:block max-[600px]:p-4">
         <TransportCard
           image="/etios.jpg"
           title="Etios"

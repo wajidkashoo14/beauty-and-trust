@@ -9,10 +9,10 @@ export default function Tours() {
  
   return (
     <div class="text-center z-10" id="tours">
-      <h1 class="text-4xl text-bold mb-20">Hot Tours</h1>
-      <div class="flex justify-evenly gap-10">
+      <h1 class="text-4xl font-bold mb-20 max-[600px]:mt-20">Hot Tours</h1>
+      <div class="flex justify-evenly gap-10 max-[600px]:block max-[600px]:p-4">
       {tour.map((item) => (
-        <div class="w-80 text-left border-solid border-2 border-[#F4F4F4] cursor-pointer shadow-xl transition-all ease-linear duration-200 hover:-translate-y-3 z-1"
+        <div class="w-80 text-left border-solid border-2 border-[#F4F4F4] cursor-pointer shadow-xl transition-all ease-linear duration-200 hover:-translate-y-3 z-1 max-[600px]:w-full max-[600px]:mb-5"
         onClick={() => router.push(`/tour/${item?.tourHeading}`)}
         >
           <Image

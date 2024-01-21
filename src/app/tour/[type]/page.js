@@ -31,12 +31,12 @@ export default function Page() {
           objectFit: "cover",
         }}
       />
-      <h1 class="text-center text-3xl text-white font-medium mb-16 -mt-16">{`${tourName} TOUR`}</h1>
-      <h1 class="text-3xl font-medium pl-10 pt-16">Overview</h1>
+      <h1 class="text-center text-3xl text-white font-medium mb-16 -mt-16 max-[600px]:-mt-24">{`${tourName} TOUR`}</h1>
+      <h1 class="text-3xl font-medium pl-10 pt-16 max-[600px]:p-4">Overview</h1>
       {data.map((tour) => (
-        <div key={tour.id} class="p-10 h-3/4">
+        <div key={tour.id} class="p-10 h-3/4 max-[600px]:p-4">
           <div>
-            <p class="w-1/2 font-thin mb-16 text-xl">{tour?.overview}</p>
+            <p class="w-1/2 font-thin mb-16 text-xl max-[600px]:w-full max-[600px]:text-lg">{tour?.overview}</p>
           </div>
           {tour && tour?.tourDetails && tour?.tourDetails.length
             ? tour?.tourDetails.map((item) => (

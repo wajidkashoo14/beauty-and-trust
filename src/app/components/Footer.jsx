@@ -6,12 +6,12 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer class="bg-white dark:bg-gray-900 h-80 ">
-      <div class="mx-auto w-full max-w-screen-xl pt-10">
-        <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+    <footer class="bg-white dark:bg-gray-900 min-h-80">
+      <div class="w-full max-w-screen-xl pt-10">
+        <div class="flex justify-evenly items-center gap-x-40 max-[600px]:block max-[600px]:p-4">
           <div>
             <h2 class="text-lg font-medium mb-5 text-white">Who we are?</h2>
-            <p class="text-sm text-left text-gray-500">
+            <p class="text-sm text-left text-gray-500 w-56 max-[600px]:w-full max-[600px]:mb-5">
               Beauty and Trust Tour and Travels in Kashmir offers an enchanting
               exploration, embracing the serene landscapes of Sonmarg and
               Pahalgam. Traverse through the captivating meadows of Pahalgam,
