@@ -17,7 +17,7 @@ export default function Page() {
   }
 
   return (
-    <div class="mt-10">
+    <div class="mt-20">
       <Image
         src="/tourcover.jpg"
         alt="cover-photo"

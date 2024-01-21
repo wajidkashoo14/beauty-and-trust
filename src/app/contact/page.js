@@ -5,6 +5,7 @@ import { IoLocationOutline, IoLogoInstagram } from "react-icons/io5";
 import { CiMobile3, CiMail, CiTwitter } from "react-icons/ci";
 import { SlSocialFacebook } from "react-icons/sl";
 import Link from "next/link";
+import { FaWhatsapp } from "react-icons/fa6";
 
 export default function page() {
   return (
@@ -14,33 +15,10 @@ export default function page() {
       </h1>
       <div class="w-full h-screen flex justify-center items-center">
         <div class="flex shadow-xl h-4/5 w-8/12">
-          <div class="flex flex-col bg-slate-100 p-6 w-8/12">
-            <h2 class="mb-6 font-medium text-xl">GET IN TOUCH</h2>
-            <form class="flex flex-col gap-4">
-              <input
-                placeholder="Your Name"
-                required
-                class="px-2 py-4 border-solid border-2 border-[#F4F4F4] focus:outline-none"
-              />
-              <input
-                placeholder="Email"
-                required
-                class="px-2 py-4 border-solid border-2 border-[#F4F4F4] focus:outline-none"
-              />
-              <input
-                placeholder="Phone"
-                required
-                class="px-2 py-4 border-solid border-2 border-[#F4F4F4] focus:outline-none"
-              />
-              <textarea
-                placeholder="Message"
-                required
-                class="px-2 py-4 border-solid border-2 h-44 border-[#F4F4F4] focus:outline-none"
-              ></textarea>
-            </form>
-            <button class="bg-[#01B3A7] px-10 py-4 mt-4 text-white text-md hover:bg-[#018078] ease-linear duration-200">
-              Send
-            </button>
+          <div class="flex flex-col bg-slate-100 w-8/12">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6606.722338666987!2d74.8499822941844!3d34.11150239253855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e185ebca868b8b%3A0x9a3f16d64da76a40!2sMir%20Behri%2C%20Srinagar%20190001!5e0!3m2!1sen!2suk!4v1705851162094!5m2!1sen!2suk" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          style={{width:"100%", height:"100%"}}
+          ></iframe>
           </div>
           <div class="flex flex-col justify-start items-start gap-12 bg-[#01B3A7] text-white p-6">
             <h2 class="text-3xl font-medium">Contact Information</h2>
@@ -67,6 +45,16 @@ export default function page() {
               </Link>
               <Link href="#">
                 <CiTwitter size={30} />
+              </Link>
+            </div>
+            <div className="flex justify-start items-center gap-3 -mt-4">
+              <h2 className="text-2xl font-normal">For Immedite Quaries</h2>
+              <Link
+                href="https://wa.me/917051695835"
+                type="button"
+                class="text-white bg-[#25D366]  font-medium text-sm px-6 py-3 text-center flex items-center justify-center gap-1"
+              >
+                <FaWhatsapp color="#fff" fontSize={20} /> WhatsApp
               </Link>
             </div>
           </div>

@@ -75,13 +75,13 @@ export default function Footer() {
               </li>
               <li class="mb-4">
                 <Link href="#" class="hover:underline flex justify-start items-center gap-2">
-               <FaMobile />91 7889904477
+               <FaMobile />+91 7889904477
 
                 </Link>
               </li>
               <li class="mb-4">
                 <a href="#" class="hover:underline flex justify-start items-center gap-2">
-                <FaMobile />91 7889904477
+                <FaMobile />+91 7889904477
                 </a>
               </li>
             </ul>

@@ -19,7 +19,7 @@ export default function page() {
       <h1 className="-mt-20 text-5xl text-black text-center font-semibold">
         About us
       </h1>
-      <div className="px-10 mt-20 w-3/4">
+      <div className="px-56 mt-20 text-center">
         <h1 className="text-xl font-semibold my-6">Welcome to Beauty and Trust Tour and Travels</h1>
         <p>
           At Beauty and Trust Tour and Travels, we believe that every journey is
