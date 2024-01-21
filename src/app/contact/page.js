@@ -14,7 +14,7 @@ export default function page() {
       </h1>
       <div class="w-full h-screen flex justify-center items-center">
         <div class="flex shadow-xl h-4/5 w-8/12">
-          <div class="flex flex-col bg-slate-300 p-6 w-8/12">
+          <div class="flex flex-col bg-slate-100 p-6 w-8/12">
             <h2 class="mb-6 font-medium text-xl">GET IN TOUCH</h2>
             <form class="flex flex-col gap-4">
               <input
