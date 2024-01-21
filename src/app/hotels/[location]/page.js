@@ -33,7 +33,7 @@ function page() {
               height: "220px",
             }}
           />
-          <div class="p-4 flex flex-col gap-4">
+          <div class="p-4 flex flex-col gap-4 max-[600px]:gap-2">
             <h2 class="text-3xl ml-4 max-[600px]:text-2xl">{hotel?.hotelName}</h2>
             <p class="text-left text-thin leading-7">
               {hotel.description}
