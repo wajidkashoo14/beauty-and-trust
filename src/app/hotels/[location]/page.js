@@ -34,7 +34,7 @@ function page() {
             }}
           />
           <div class="p-4 flex flex-col gap-4">
-            <h2 class="text-3xl max-[600px]:text-2xl">{hotel?.hotelName}</h2>
+            <h2 class="text-3xl ml-4 max-[600px]:text-2xl">{hotel?.hotelName}</h2>
             <p class="text-left text-thin leading-7">
               {hotel.description}
             </p>
