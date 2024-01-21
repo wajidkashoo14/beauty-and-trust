@@ -11,7 +11,7 @@ export default function Footer() {
         <div class="flex justify-evenly items-center gap-x-40 max-[600px]:block max-[600px]:p-4">
           <div>
             <h2 class="text-lg font-medium mb-5 text-white">Who we are?</h2>
-            <p class="text-sm text-left text-gray-500 w-56 max-[600px]:w-full max-[600px]:mb-5">
+            <p class="text-sm text-left text-gray-400 w-56 max-[600px]:w-full max-[600px]:mb-5">
               Beauty and Trust Tour and Travels in Kashmir offers an enchanting
               exploration, embracing the serene landscapes of Sonmarg and
               Pahalgam. Traverse through the captivating meadows of Pahalgam,
@@ -23,7 +23,7 @@ export default function Footer() {
             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
               Help center
             </h2>
-            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+            <ul class="text-gray-400 font-medium">
               <li class="mb-4">
                 <Link href="#" class="hover:underline">
                   Twitter
@@ -45,7 +45,7 @@ export default function Footer() {
             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
               Quick Links
             </h2>
-            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+            <ul class="text-gray-400 font-medium">
               <li class="mb-4">
                 <Link href="/#tours" class="hover:underline">
                   Tours
@@ -67,7 +67,7 @@ export default function Footer() {
             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
               Contact
             </h2>
-            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+            <ul class="text-gray-400 font-medium">
               <li class="mb-4">
                 <Link href="#" class="hover:underline flex justify-start items-center gap-2">
                 <IoMdMail /> beautyandtrusttours@gmail.com
