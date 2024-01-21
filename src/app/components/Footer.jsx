@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer class="bg-[#024F74] dark:bg-gray-900 min-h-80">
+    <footer class="bg-[#06283D] dark:bg-gray-900 min-h-80">
       <div class="w-full max-w-screen-xl pt-10">
         <div class="flex justify-evenly items-center gap-x-40 max-[600px]:block max-[600px]:p-4">
           <div>
