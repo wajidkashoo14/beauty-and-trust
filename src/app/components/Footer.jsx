@@ -10,7 +10,7 @@ export default function Footer() {
       <div class="w-full max-w-screen-xl pt-10">
         <div class="flex justify-evenly items-center gap-x-40 max-[600px]:block max-[600px]:p-4">
           <div>
-            <h2 class="text-lg font-medium mb-5 text-white">Who we are?</h2>
+            <h2 class="text-lg font-medium mb-5 text-gray-400">Who we are?</h2>
             <p class="text-sm text-left text-gray-400 w-56 max-[600px]:w-full max-[600px]:mb-5">
               Beauty and Trust Tour and Travels in Kashmir offers an enchanting
               exploration, embracing the serene landscapes of Sonmarg and
@@ -20,7 +20,7 @@ export default function Footer() {
             </p>
           </div>
           <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+            <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase dark:text-white">
               Help center
             </h2>
             <ul class="text-gray-400 font-medium">
@@ -42,7 +42,7 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+            <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">
               Quick Links
             </h2>
             <ul class="text-gray-400 font-medium">
@@ -64,7 +64,7 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+            <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">
               Contact
             </h2>
             <ul class="text-gray-400 font-medium">
