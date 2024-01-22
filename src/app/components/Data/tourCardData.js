@@ -17,7 +17,7 @@ const data = [
       {
         id: 2,
         day: "DAY 02 = Srinagar - Sonamarg - Srinagar",
-        detail: `Assistance   on arrival and   proceed   Hotel /  Houseboat  check - in - Srinagar is also  known  as “Paradise  on  Earth “   first night stay in srinagar hotel. After rest and refreshing yourself leave for  Sightseeing tour of Mughal Garden Visiting , Cheshmashahi (The Royal Spring ),Nishat (The Garden of pleasure),Shalimar (The Abode of Love) Overnight at the Hotel in Srinagar`,
+        detail: `After breakfast leave for a full day Excursion tour of Sonamarg (9000 fts a.s.l)."The Golden Meadow".Sonamarg is the beginning of the enchanted journey into a natural wonder land. Surrounded by mountains up to 5300 high the valley is divided by a spur of the “Thajwas Range”. You can go to Thaijwas Glacier  (by hiring a pony on direct payment basis) where the last scene of Bajrangi bhaijan movie was created or you can go to Zero point (by hiring a local union cab on direct payment basis) after that Return back to Srinagar & Overnight stay  in Hotel at Srinagar`,
       },
       {
         id: 3,
