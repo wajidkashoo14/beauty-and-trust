@@ -27,20 +27,30 @@ const data = [
       },
       {
         id: 4,
-        day: "DAY 04 = Srinagar - Pahalgam",
+        day: "DAY 04 = Srinagar - Pahalgam - Srinagar",
         detail: `After having Breakfast at Srinagar hotel. You will move towards pahalgam after reaching pahalgam you will check - in to the hotel and lets take tour of pahalgam (7200 fts a.s.l) “Village of  Shepherds” enroute visiting the world  famous saffron growing fields , Awantipura ruins (9th  century ) & martand Temple ( sun temple ).Pahalgam also famous for Indian film industry , some  trekking routes & also base camp for Amarnath pilgrimage . You spend the day at pahalgam and overnight stay at Pahalgam hotel
                 .
                  `,
       },
       {
         id: 5,
+        day: "DAY 04 = Srinagar - Doodhpathri - Srinagar",
+        detail: `After Breakfast Transfer from Srinagar to Doodhpathri in the morning.
+        Local Sightseeing of Doodhpathri (Tangnar, Mujpathri, Palmaidan).
+       Transfer from Doodhpathri to Srinagar in the evening.
+        Dinner and overnight stay at Hotel/Houseboat in Srinagar.
+                .
+                 `,
+      },
+      {
+        id: 6,
         day: "DAY 05 Pahalgam - Srinagar",
         detail: `After having Breakfast at pahalgam hotel. Let's move towards Srinagar. On reaching Srinagar check-in to the houseboat. After check-in let's have a Shikara ride in famous Dal lake and capture the beautiful view of Dal lake. After that return back to houseboat and overnight stay in houseboat at Dal lake
                 .
                  `,
       },
       {
-        id: 6,
+        id: 7,
         day: "DAY 06 Departure to Srinagar Airport",
         detail: `This morning After having Breakfast rest and refresh yourselves and transfer you to Srinagar Airport for onward flight
                 .
