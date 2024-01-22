@@ -143,7 +143,7 @@ function Navbar() {
           <Link
             href="https://wa.me/917051695835"
             type="button"
-            class="text-white bg-transparent  font-medium text-sm px-6 py-3 text-center flex items-center justify-center gap-1 max-[600px]:absolute max-[600px]:-bottom-[85vh] max-[600px]:right-0 max-[600px]:z-50"
+            class="text-white bg-transparent  font-medium text-sm px-6 py-3 text-center flex items-center justify-center gap-1 max-[600px]:absolute max-[600px]:-bottom-[80vh] max-[600px]:right-0 max-[600px]:z-50"
           >
             <Image src="/whatsapp.png" width={50} height={50} alt="whatsApp-Icon" loading="lazy" />
           </Link>
