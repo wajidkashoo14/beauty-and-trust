@@ -147,7 +147,7 @@ function Navbar() {
           >
             <Image src="/whatsapp.png" width={50} height={50} alt="whatsApp-Icon" loading="lazy" />
           </Link>
-         {nav ? <ul class="flex flex-col font-medium text-center pt-20 bg-[#024F74] h-screen w-full mt-10 absolute top-10 left-0">
+         {nav ? <ul class="flex flex-col gap-3 font-medium text-center pt-20 bg-[#024F74] h-screen w-full mt-10 absolute top-10 left-0 text-lg">
           <li>
             <Link
               href="/"
