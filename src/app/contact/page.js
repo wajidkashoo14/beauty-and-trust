@@ -25,7 +25,7 @@ export default function page() {
             <span class="flex justify-center items-center gap-2 text-lg">
               <IoLocationOutline size={25} />
               <text>
-                Mir behri dal srinagar, Srinagar, Jammu and Kashmir 190003
+                Saida Kadal, Ranger Stop, Srinagar, Jammu and Kashmir 190003
               </text>{" "}
             </span>
             <span class="flex justify-center items-center gap-2 text-lg">

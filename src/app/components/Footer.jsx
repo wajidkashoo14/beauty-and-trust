@@ -94,7 +94,7 @@ export default function Footer() {
                   class="hover:underline flex justify-start items-center gap-2"
                 >
                   <FaMobile />
-                  +91 7889904477
+                  +91 7051695835
                 </a>
               </li>
             </ul>
