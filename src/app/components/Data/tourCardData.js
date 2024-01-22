@@ -34,18 +34,11 @@ const data = [
       },
       {
         id: 5,
-        day: "DAY 04 = Srinagar - Doodhpathri - Srinagar",
+        day: "DAY 05 = Srinagar - Doodhpathri - Srinagar",
         detail: `After Breakfast Transfer from Srinagar to Doodhpathri in the morning.
         Local Sightseeing of Doodhpathri (Tangnar, Mujpathri, Palmaidan).
        Transfer from Doodhpathri to Srinagar in the evening.
         Dinner and overnight stay at Hotel/Houseboat in Srinagar.
-                .
-                 `,
-      },
-      {
-        id: 6,
-        day: "DAY 05 Pahalgam - Srinagar",
-        detail: `After having Breakfast at pahalgam hotel. Let's move towards Srinagar. On reaching Srinagar check-in to the houseboat. After check-in let's have a Shikara ride in famous Dal lake and capture the beautiful view of Dal lake. After that return back to houseboat and overnight stay in houseboat at Dal lake
                 .
                  `,
       },
@@ -101,7 +94,7 @@ const data = [
     price: 5000,
     description:
       "Experience Kashmir's allure in a 3N/4D tour. Visit Dal Lake, Gulmarg, and Pahalgam. Enjoy breathtaking landscapes and cultural richness.",
-      tourHeading: "3NIGHTS-AND-4DAYS",
+    tourHeading: "3NIGHTS-AND-4DAYS",
     overview: `Kashmir 4D3N Tour has been designed to give Tourists an Everlasting Experience of Kashmir’s Mesmerising Scenic Beauty, Rich Culture & Heartwarming Hospitality. Ask your Tour Advisor for making any changes in the itinerary as per your wishes. Add “Activities”, and “Special Requests” to make Your Tour Personalised as per your Unique Taste. We encourage customers to Handpick their Touring Destinations, Hotels, Transportation, Activities, and Cuisines as per their preferences & budget. Talk to our tour advisors to know more. We request Travellers to Review us after their Tour Ends and needless to say, we love to get 5 Stars. So, the pressure is on us to meet and surpass your expectations so that you don’t give us anything short of a 5 Star rating`,
     tourDetails: [
       {
