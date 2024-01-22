@@ -9,11 +9,11 @@ import { FaWhatsapp } from "react-icons/fa6";
 
 export default function page() {
   return (
-    <div class="mt-32 max-[600px]:mt-60">
+    <div class="mt-32 max-[600px]:mt-52">
       <h1 className="-mt-20 text-5xl text-black text-center font-medium max-[600px]:mb-5">
         Contact Us
       </h1>
-      <div class="w-full min-h-screen flex justify-center items-center max-[600px]:block">
+      <div class="w-full min-h-screen flex justify-center items-center max-[600px]:block max-[600px]:p-4 ">
         <div class="flex shadow-xl h-4/5 w-8/12 max-[600px]:block max-[600px]:w-full">
           <div class="flex flex-col bg-slate-100 w-8/12 max-[600px]:w-full max-[600px]:hidden">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6606.722338666987!2d74.8499822941844!3d34.11150239253855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e185ebca868b8b%3A0x9a3f16d64da76a40!2sMir%20Behri%2C%20Srinagar%20190001!5e0!3m2!1sen!2suk!4v1705851162094!5m2!1sen!2suk" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"

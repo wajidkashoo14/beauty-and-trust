@@ -8,7 +8,7 @@ import { IoWallet } from "react-icons/io5";
 
 export default function OurServices() {
   return (
-    <div class="px-20 min-h-screen text-center max-[600px]:px-4 max-[600px]:mt-44">
+    <div class="px-20 min-h-screen text-center max-[600px]:px-4 max-[600px]:mt-56">
       <h1 class="text-4xl font-bold mt-12 mb-20">Our Services</h1>
       <div class="flex justify-around items-center flex-wrap gap-4 max-[600px]:block">
         <OurServicesCard

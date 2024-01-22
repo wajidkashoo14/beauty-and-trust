@@ -115,7 +115,7 @@ function Navbar() {
           </ul>
         </div>
       </div>
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-3 max-[600px]:flex max-[600px]:justify-between">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-3 max-[600px]:flex max-[600px]:justify-between min-[768px]:hidden">
         <Link
           href="/"
           class="text-white font-semibold text-xl flex justify-center items-center gap-2 -z-1"
@@ -140,13 +140,13 @@ function Navbar() {
           </div>
 
           
-          {/* <Link
+          <Link
             href="https://wa.me/917051695835"
             type="button"
-            class="text-white bg-[#25D366]  font-medium text-sm px-6 py-3 text-center flex items-center justify-center gap-1 max-[600px]:absolute max-[600px]:bottom-5 max-[600px]:right-4"
+            class="text-white bg-transparent  font-medium text-sm px-6 py-3 text-center flex items-center justify-center gap-1 max-[600px]:absolute max-[600px]:-bottom-[85vh] max-[600px]:right-0 max-[600px]:z-50"
           >
-            <FaWhatsapp color="#fff" fontSize={20} />
-          </Link> */}
+            <Image src="/whatsapp.png" width={50} height={50} alt="whatsApp-Icon" loading="lazy" />
+          </Link>
          {nav ? <ul class="flex flex-col font-medium text-center pt-20 bg-[#024F74] h-screen w-full mt-10 absolute top-10 left-0">
           <li>
             <Link

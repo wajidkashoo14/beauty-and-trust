@@ -13,6 +13,7 @@ export default function Aboutus() {
         width={500}
         height={400}
         loading="lazy"
+        className="max-[600px]:w-full"
       />
       <div class="w-1/2 flex flex-col gap-10 max-[600px]:w-full max-[600px]:block max-[600px]:p-4">
         <h1 class="text-3xl font-bold max-[600px]:text-2xl max-[600px]:my-4">About Us</h1>
