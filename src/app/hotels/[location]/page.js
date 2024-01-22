@@ -20,7 +20,7 @@ function page() {
       }`}</h1>
       <div class="flex flex-wrap justify-evenly items-center gap-8 mt-24 max-[600px]:block max-[600px]:p-4 max-[600px]:mt-16">
       {destination.hotels && destination.hotels.length ? destination.hotels.map((hotel) => (
-        <div class="w-2/5 flex items-starts text-left shadow-xl rounded-md overflow-hidden cursor-pointer ease-linear duration-200 hover:-translate-y-3 max-[600px]:w-full max-[600px]:block max-[600px]:mb-5">
+        <div class="w-2/5 flex items-starts text-left shadow-xl rounded-md overflow-hidden cursor-pointer ease-linear duration-200 hover:-translate-y-3 max-[600px]:w-full max-[600px]:block max-[600px]:mb-5 lg:block">
           <Image
             src={hotel?.image}
             sizes="100vw"
@@ -28,10 +28,10 @@ function page() {
             height={220}
             alt="dallake Image"
             loading="lazy"
-            class="w-80 h-52 max-[600px]:w-full"
+            class="w-80 h-52 max-[600px]:w-full lg:w-full"
           />
           <div class="p-4 flex flex-col gap-4 max-[600px]:gap-2">
-            <h2 class="text-3xl ml-4 max-[600px]:text-2xl">{hotel?.hotelName}</h2>
+            <h2 class="text-3xl ml-4 max-[600px]:text-2xl lg:text-2xl">{hotel?.hotelName}</h2>
             <p class="text-left text-thin leading-7">
               {hotel.description}
             </p>

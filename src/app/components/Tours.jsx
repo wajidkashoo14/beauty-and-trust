@@ -13,7 +13,7 @@ export default function Tours() {
       <div class="flex justify-evenly gap-10 max-[600px]:block max-[600px]:p-4">
         {tour.map((item) => (
           <div
-            class="w-80 text-left border-solid border-2 border-[#F4F4F4] cursor-pointer shadow-xl transition-all ease-linear duration-200 hover:-translate-y-3 z-1 max-[600px]:w-full max-[600px]:mb-5"
+            class="w-80 text-left border-solid border-2 border-[#F4F4F4] cursor-pointer shadow-xl transition-all ease-linear duration-200 hover:-translate-y-3 z-1 max-[600px]:w-full max-[600px]:mb-5 lg:w-72"
             onClick={() => router.push(`/tour/${item?.tourHeading}`)}
           >
             <Image
@@ -23,7 +23,7 @@ export default function Tours() {
               height={230}
               alt="dallake Image"
               loading="lazy"
-              class="w-80 h-52 max-[600px]:w-full"
+              class="w-80 h-52 max-[600px]:w-full lg"
             />
             <div class="p-4">
               <h2 class="text-xl mb-5 font-medium">{item?.title}</h2>

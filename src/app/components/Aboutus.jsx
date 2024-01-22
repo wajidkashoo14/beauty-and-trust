@@ -15,9 +15,9 @@ export default function Aboutus() {
         loading="lazy"
         className="max-[600px]:w-full"
       />
-      <div class="w-1/2 flex flex-col gap-10 max-[600px]:w-full max-[600px]:block max-[600px]:p-4">
+      <div class="w-1/2 flex flex-col gap-10 max-[600px]:w-full max-[600px]:block max-[600px]:p-4 lg:gap-2 lg:p-2">
         <h1 class="text-3xl font-bold max-[600px]:text-2xl max-[600px]:my-4">About Us</h1>
-        <p class="text-lg leading-7 font-light max-[600px]:text-sm max-[600px]:leading-6">
+        <p class="text-lg leading-7 font-light max-[600px]:text-sm max-[600px]:leading-6 lg:leading-6 ">
           Beauty and Trust Tour and Travels in Kashmir offers an enchanting
           exploration, embracing the serene landscapes of Sonmarg and Pahalgam.
           Traverse through the captivating meadows of Pahalgam, where the Lidder

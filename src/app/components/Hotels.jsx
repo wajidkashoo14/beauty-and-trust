@@ -11,7 +11,7 @@ export default function Hotels() {
   return (
     <div id="hotels" class="h-auto text-center my-32 max-[600px]:my-20">
       <h1 class="text-4xl font-bold mb-20 max-[600px]:text-2xl">Discover Your Perfect Stay</h1>
-      <div class="flex items-center justify-center gap-3 max-[600px]:block max-[600px]:p-4">
+      <div class="flex items-center justify-center gap-3 max-[600px]:block max-[600px]:p-4 lg:p-4">
         {data.map((hotel) => (
           <article
             key={hotel?.id}

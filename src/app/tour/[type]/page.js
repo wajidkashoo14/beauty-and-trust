@@ -39,7 +39,7 @@ export default function Page() {
         tour.map((tour) => (
           <div key={tour.id} class="p-10 h-3/4 max-[600px]:p-4">
             <div>
-              <p class="w-1/2 font-thin mb-16 text-xl max-[600px]:w-full max-[600px]:text-lg">
+              <p class="w-1/2 font-thin mb-16 text-xl max-[600px]:w-full max-[600px]:text-lg lg:w-4/6">
                 {tour?.overview}
               </p>
             </div>
