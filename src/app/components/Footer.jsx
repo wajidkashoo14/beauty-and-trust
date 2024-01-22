@@ -5,9 +5,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer class="bg-[#06283D] dark:bg-gray-900 min-h-80">
-      <div class="w-full max-w-screen-xl pt-10">
-        <div class="flex justify-evenly items-center gap-x-40 max-[600px]:block max-[600px]:p-4">
+    <footer class="bg-[#06283D] dark:bg-gray-900 min-h-80 flex justify-evenly items-center max-[600px]:block max-[600px]:p-4">
           <div>
             <h2 class="text-lg font-medium mb-5 text-white">Who we are?</h2>
             <p class="text-sm text-left text-gray-400 w-56 max-[600px]:w-full max-[600px]:mb-5">
@@ -101,8 +99,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-        </div>
-      </div>
+       
     </footer>
   );
 }
