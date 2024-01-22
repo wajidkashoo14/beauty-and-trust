@@ -24,7 +24,7 @@ export default function Hotels() {
               height={300}
               alt="hotel-image"
               loading="lazy"
-              class="shadow-lg rounded-lg ease-linear duration-200 hover:shadow-2xl"
+              class="shadow-lg rounded-lg ease-linear duration-200 hover:shadow-2xl max-[600px]:w-full"
               onClick={() => router.push(`/hotels/${hotel?.location}`)}
             />
             <span class="font-medium">{hotel?.location.toUpperCase()}</span>

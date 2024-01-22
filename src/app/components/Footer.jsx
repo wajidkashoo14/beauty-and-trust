@@ -3,7 +3,6 @@ import { IoMdMail } from "react-icons/io";
 import { FaMobile } from "react-icons/fa6";
 import Link from "next/link";
 
-
 export default function Footer() {
   return (
     <footer class="bg-[#06283D] dark:bg-gray-900 min-h-80">
@@ -30,12 +29,18 @@ export default function Footer() {
                 </Link>
               </li>
               <li class="mb-4">
-                <Link href="https://www.facebook.com/profile.php?id=61550517676262&mibextid=ZbWKwL" class="hover:underline">
+                <Link
+                  href="https://www.facebook.com/profile.php?id=61550517676262&mibextid=ZbWKwL"
+                  class="hover:underline"
+                >
                   Facebook
                 </Link>
               </li>
               <li class="mb-4">
-                <Link href="https://www.instagram.com/beautyandtrusttours?igsh=MThmM3BtbWQzMXAxbw==" class="hover:underline">
+                <Link
+                  href="https://www.instagram.com/beautyandtrusttours?igsh=MThmM3BtbWQzMXAxbw=="
+                  class="hover:underline"
+                >
                   Instagram
                 </Link>
               </li>
@@ -65,23 +70,33 @@ export default function Footer() {
           </div>
           <div>
             <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">
-              Contact
+              <Link href="/contact">Contact</Link>
             </h2>
             <ul class="text-gray-400 font-medium">
               <li class="mb-4">
-                <Link href="#" class="hover:underline flex justify-start items-center gap-2">
-                <IoMdMail /> beautyandtrusttours@gmail.com
+                <Link
+                  href="#"
+                  class="hover:underline flex justify-start items-center gap-2"
+                >
+                  <IoMdMail /> beautyandtrusttours@gmail.com
                 </Link>
               </li>
               <li class="mb-4">
-                <Link href="#" class="hover:underline flex justify-start items-center gap-2">
-               <FaMobile />+91 7889904477
-
+                <Link
+                  href="#"
+                  class="hover:underline flex justify-start items-center gap-2"
+                >
+                  <FaMobile />
+                  +91 7889904477
                 </Link>
               </li>
               <li class="mb-4">
-                <a href="#" class="hover:underline flex justify-start items-center gap-2">
-                <FaMobile />+91 7889904477
+                <a
+                  href="#"
+                  class="hover:underline flex justify-start items-center gap-2"
+                >
+                  <FaMobile />
+                  +91 7889904477
                 </a>
               </li>
             </ul>

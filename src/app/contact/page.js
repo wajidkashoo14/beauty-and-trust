@@ -48,7 +48,7 @@ export default function page() {
               </Link>
             </div>
             <div className="flex justify-start items-center gap-3 -mt-4 max-[600px]:block max-[600px]:-mt-2">
-              <h2 className="text-2xl font-normal max-[600px]:mb-5">For Immedite Quaries</h2>
+              <h2 className="text-2xl font-normal max-[600px]:mb-5">For Immediate Queries</h2>
               <Link
                 href="https://wa.me/917051695835"
                 type="button"
