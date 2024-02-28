@@ -101,7 +101,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <p className="text-center text-white py-3 text-sm">
+      <p className="text-center text-gray-400 py-3 text-sm">
         2024 Beauty and Trust Kashmir | A product of{" "}
         <Link className="underline" target="_blank" href="https://aqion.in/">
           Aqion
