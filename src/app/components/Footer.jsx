@@ -5,8 +5,8 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer>
-      <div class="bg-[#06283D] dark:bg-gray-900 min-h-80 flex justify-evenly items-center max-[600px]:block max-[600px]:p-4">
+    <footer className="bg-[#06283D]">
+      <div class="dark:bg-gray-900 min-h-80 flex justify-evenly items-center max-[600px]:block max-[600px]:p-4">
         <div>
           <h2 class="text-lg font-medium mb-5 text-white">Who we are?</h2>
           <p class="text-sm text-left text-gray-400 w-56 max-[600px]:w-full max-[600px]:mb-5">
@@ -101,7 +101,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <p className="text-center text-[#063c49] py-3 text-sm">
+      <p className="text-center text-white py-3 text-sm">
         2024 Beauty and Trust Kashmir | A product of{" "}
         <Link className="underline" target="_blank" href="https://aqion.in/">
           Aqion
